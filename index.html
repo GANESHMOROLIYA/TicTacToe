@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="foricon.png" />
+</head>
+<body>
+  <h1>Tic Tac Toe Game</h1>
+
+  <!-- ✅ Use id, not class -->
+  <div id="msg-Container" class="hide">
+    <p id="msg">Winner</p>
+    <button id="newbtn">New Game</button>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="game">
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+        <button class="box" type="button"></button>
+      </div>
+    </div>
+    <button id="reset">Reset Game</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
